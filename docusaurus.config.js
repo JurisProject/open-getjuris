@@ -1,6 +1,8 @@
+const path = require("path");
+
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Juris, PBC',
+  tagline: 'Justice. For All.',
   url: 'https://nifty-heisenberg-a6b091.netlify.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -97,9 +99,10 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/scss/index.scss'),
         },
       },
     ],
   ],
+  plugins: [path.resolve(__dirname, "./node_modules/docusaurus-plugin-sass")],
 };

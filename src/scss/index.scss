@@ -1,0 +1,37 @@
+/* Juris Styles
+https://github.com/KonstantinSolutions/juris-branding/tree/master/SCSS
+*/
+@import '../../node_modules/juris-branding/SCSS/colors.scss';
+@import '../../node_modules/juris-branding/SCSS/fonts.scss';
+
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #{$primary};
+    --ifm-color-primary-dark: #{$primary-dark};
+    --ifm-color-primary-darker: #{$primary-darker};
+    --ifm-color-primary-darkest: #{darken($primary, 1%)};
+    --ifm-color-primary-light: #{$primary-light};
+    --ifm-color-primary-lighter: #{$primary-lighter};
+    --ifm-color-primary-lightest: #{lighten($primary, 15%)};
+    --ifm-code-font-size: 95%;
+  }
+
+  .hero--dark {
+    --ifm-hero-background-color: var(--ifm-color-primary);
+    --ifm-hero-text-color: var(--ifm-color-white);
+    color: $white;
+  }
+
+  .docusaurus-highlight-code-line {
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+  }
