@@ -7,11 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 import '../scss/index.scss';
-import '../scss/colors.scss';
-import '../scss/fonts.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Button from 'react-bootstrap/Button';
 
 const features = [
   {
@@ -72,12 +68,13 @@ function Home() {
         <div className="container">
           <div className="row d-flex">
             <div className="col p-2">
-            <h1 className="hero__title">Imagine a better legal system.</h1>
-            <p className="hero__subtitle">Open source. Justice for All.</p>
-              <div className={styles.buttons}>
+              <h1 className="hero__title">Imagine a better legal system.</h1>
+              <p className="hero__subtitle">Open source. Justice for All.</p>
+                <div className={styles.buttons}>
+            
                 <Link
                   className={classnames(
-                    'button button--outline button--secondary button--lg',
+                    `button button--secondary button--lg`,
                     styles.getStarted,
                    )}
                   to={useBaseUrl('docs/')}>
@@ -90,7 +87,6 @@ function Home() {
             </div>
           </div>
           </div>
-        </div>
       </header>
       <main>
         {features && features.length > 0 && (
