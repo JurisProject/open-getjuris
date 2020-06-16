@@ -1,13 +1,13 @@
 const path = require("path");
 
 module.exports = {
-  title: 'Juris, PBC',
+  title: 'Juris',
   tagline: 'Justice. For All.',
   url: 'https://nifty-heisenberg-a6b091.netlify.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Juris, PBC', // Usually your GitHub org/user name.
+  projectName: 'Juris', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
