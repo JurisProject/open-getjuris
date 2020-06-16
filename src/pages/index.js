@@ -65,7 +65,7 @@ function Home() {
       description="Re-imagining the legal system, like programmers.<head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <div className="container">
-          <div className="row">
+          <div className="row d-flex">
             <div className="col p-2">
             <h1 className="hero__title">Imagine a better legal system.</h1>
             <p className="hero__subtitle">Open source. Justice for All.</p>
