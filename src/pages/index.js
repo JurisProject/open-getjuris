@@ -7,6 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 import '../scss/index.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Button from 'react-bootstrap/Button';
 
 const features = [
   {
@@ -65,6 +68,9 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <div className="container">
+          <div className="row">
+            <div className
+          <img className="" src="../../static/img/logo.svg" />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
@@ -76,6 +82,7 @@ function Home() {
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>
+          </div>
           </div>
         </div>
       </header>
