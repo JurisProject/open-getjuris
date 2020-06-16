@@ -19,8 +19,8 @@
 
 .buttons {
   display: flex;
-  align-items: left;
-  justify-content: center;
+  align-items: center;
+  justify-content: left;
 }
 
 .features {
