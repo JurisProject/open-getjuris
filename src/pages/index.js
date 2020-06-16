@@ -64,27 +64,10 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Juris. Imagine a better legal system.`}
+      description="Re-imagining the legal system, like programmers.<head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <div className="container">
-<<<<<<< Updated upstream
-          <div className="row">
-            <div className
-          <img className="" src="../../static/img/logo.svg" />
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
-=======
           <div className="row d-flex">
             <div className="col p-2">
             <h1 className="hero__title">Imagine a better legal system.</h1>
@@ -103,7 +86,7 @@ function Home() {
             <div className="col p-2">
               <img className="" src="../../static/img/logo.svg" />
             </div>
->>>>>>> Stashed changes
+          </div>
           </div>
         </div>
       </header>
