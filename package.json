@@ -11,10 +11,12 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.56",
     "@docusaurus/preset-classic": "^2.0.0-alpha.56",
+    "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "docusaurus-plugin-sass": "^0.1.8",
     "juris-branding": "https://github.com/KonstantinSolutions/juris-branding.git",
     "react": "^16.8.4",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.8.4"
   },
   "browserslist": {

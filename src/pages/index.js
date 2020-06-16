@@ -7,6 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 import '../scss/index.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Button from 'react-bootstrap/Button';
 
 const features = [
   {
@@ -83,6 +86,7 @@ function Home() {
             <div className="col p-2">
               <img className="" src="../../static/img/logo.svg" />
             </div>
+          </div>
           </div>
         </div>
       </header>
