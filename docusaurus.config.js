@@ -16,7 +16,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'handbook',activeBasePath: 'handbook', label: 'Handbook', position: 'right',
+          to: 'docs',activeBasePath: 'docs/', label: 'Docs', position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
@@ -34,11 +34,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'handbook/',
+              to: 'docs/',
             },
             {
               label: 'Second Doc',
-              to: 'handbook/doc2/',
+              to: 'docs/doc2/',
             },
           ],
         },
