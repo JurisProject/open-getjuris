@@ -62,8 +62,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Juris. Imagine a better legal system.`}
-      description="Re-imagining the legal system, like programmers.<head />">
+      title={`Imagine a better legal system.`}
+      description="We're building a new legal system and we're thinking like programmers. Help us or get help.<head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <div className="container">
           <div className="row d-flex">
