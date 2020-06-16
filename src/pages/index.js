@@ -7,6 +7,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 import '../scss/index.scss';
+import '../scss/colors.scss';
+import '../scss/fonts.scss';
 
 const features = [
   {
