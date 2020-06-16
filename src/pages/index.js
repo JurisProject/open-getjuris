@@ -68,6 +68,7 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <div className="container">
+<<<<<<< Updated upstream
           <div className="row">
             <div className
           <img className="" src="../../static/img/logo.svg" />
@@ -83,6 +84,26 @@ function Home() {
               Get Started
             </Link>
           </div>
+=======
+          <div className="row d-flex">
+            <div className="col p-2">
+            <h1 className="hero__title">Imagine a better legal system.</h1>
+            <p className="hero__subtitle">Open source. Justice for All.</p>
+              <div className={styles.buttons}>
+                <Link
+                  className={classnames(
+                    'button button--outline button--secondary button--lg',
+                    styles.getStarted,
+                   )}
+                  to={useBaseUrl('docs/')}>
+                  Get Started
+                </Link>
+              </div>
+            </div>
+            <div className="col p-2">
+              <img className="" src="../../static/img/logo.svg" />
+            </div>
+>>>>>>> Stashed changes
           </div>
         </div>
       </header>
