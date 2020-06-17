@@ -10,6 +10,7 @@ module.exports = {
   projectName: 'Juris', // Usually your repo name.
   themeConfig: {
     navbar: {
+      title: "Juris",
       logo: {
         alt: 'Juris Logo',
         src: 'img/Juris-Logo-Badge.png',
