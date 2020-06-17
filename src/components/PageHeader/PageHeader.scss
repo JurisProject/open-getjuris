@@ -1,0 +1,20 @@
+@import '../../scss/variables.scss';
+
+.page-header{
+    padding: ($global-padding * 3) 0 0;
+    background: $primary-gradient;
+    text-align: center;
+
+    color: $white;
+
+    svg {
+        width: calc(115% + 1.3px);
+        height: 110px;
+        transform: rotate(180deg);
+
+        path {
+            fill: var(--ifm-background-color);
+
+        }
+    }
+}
