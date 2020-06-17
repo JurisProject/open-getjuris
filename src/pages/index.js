@@ -68,18 +68,17 @@ function Home() {
         <div className="container">
           <div className="row d-flex">
             <div className="col p-2">
-            <img className="pb-2" src="img/Juris-Word-Logo-White.png"/>
-              <h1 className="hero__title">Imagine a better legal system.</h1>
-              <p className="hero__subtitle">Open source. Justice for All.</p>
+            <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png"/>
+              <h1 className="pt-2 pb-2 hero__title">Building a better legal system.</h1>
+              <p className="pt-2 pb-2 hero__subtitle">We believe the only answer to problems in a public system is an open solution. Help us build it.</p>
+                <div className="pt-2">
                 <div className={styles.buttons}>
-            
-                
                 <Link
                   className={classnames(
                     `button button--secondary button--lg mr-2`,
                     styles.getStarted,
                    )}
-                  to={useBaseUrl('handbook/')}>
+                  to={useBaseUrl('docs/')}>
                   Get Started
                 </Link>
                 <Link
@@ -87,10 +86,10 @@ function Home() {
                     `button button--secondary button--lg ml-2`,
                     styles.getStarted,
                    )}
-                  to={useBaseUrl('handbook/')}>
-                  Get Started
+                  to={useBaseUrl('docs/')}>
+                  Get Legal Help
                 </Link>
-                
+                </div>
               </div>
             </div>
             <div className="col p-2">
