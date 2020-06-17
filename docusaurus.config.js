@@ -20,6 +20,9 @@ module.exports = {
           to: 'docs',activeBasePath: 'docs/', label: 'Docs', position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'right'},
+        {to: 'team', label: 'Team', position: 'right'},
+        {to: 'build', label: 'Builder', position: 'right'},
+        {to: 'help', label: 'Get Legal Help', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
