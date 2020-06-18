@@ -67,7 +67,6 @@ function Home() {
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <Container>
           <Row className="d-flex">
-            
             <div className="col p-2">
             <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png"/>
               <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
@@ -77,7 +76,7 @@ function Home() {
                 <Button
                   tag={Link}
                   className={classnames(
-                    `mr-2 btn-primary`,
+                    `mr-2`,
                     styles.getStarted,
                    )}
                   to={useBaseUrl('docs/')}>
@@ -85,7 +84,6 @@ function Home() {
                 </Button>
                 <Button
                   tag={Link}
-                  color="primary"
                   className={classnames(
                     `ml-2`,
                     styles.getStarted,
