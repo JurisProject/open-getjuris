@@ -75,6 +75,8 @@ function Home() {
                 <div className={styles.buttons}>
                 <Button
                   tag={Link}
+                  outline color="light"
+                  size="lg"
                   className={classnames(
                     `mr-2`,
                     styles.getStarted,
@@ -84,6 +86,8 @@ function Home() {
                 </Button>
                 <Button
                   tag={Link}
+                  outline color="light"
+                  size="lg"
                   className={classnames(
                     `ml-2`,
                     styles.getStarted,

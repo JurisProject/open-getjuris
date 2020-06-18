@@ -43,7 +43,7 @@
     --ifm-hero-background-color: var(--ifm-color-primary);
     --ifm-hero-text-color: var(--ifm-color-white);
       color: $white;
-      background-color: $blue-gradient-horizontal;
+      background-image: $primary-gradient;
   }
 
   .docusaurus-highlight-code-line {
