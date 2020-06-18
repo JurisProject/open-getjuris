@@ -1,0 +1,67 @@
+$primary: #765cfc;
+$primary-dark: #6f64f3;
+$primary-darker: #4e54c8;
+$primary-light: #8f94fb;
+$primary-lighter: lighten($primary, 31%);
+
+$secondary: #b4bdce;
+$dark: #413b60;
+$green: #1abc9c;
+$red: #e74c3c;
+$orange: #f39c12;
+$purple: #9b59b6;
+$dark-purple: #161846;
+$light-gray: #ced4da;
+$lighter-gray: #eeeeee;
+$gray: #dee2e9;
+$light-blue: #f5f7ff;
+
+$gray-gradient: linear-gradient(180deg, #b4bdce 0%, #8190ad 100%);
+
+$blue-light: #56ccf2;
+$blue: #2b97ef;
+$blue-dark: #2f80ed;
+$blue-gradient-horizontal: linear-gradient(
+  to right,
+  $blue-dark 0%,
+  $blue-light 100%
+);
+
+$green-gradient: linear-gradient(180deg, #31ffd6 0%, #24c3a3 100%);
+
+$black: $dark;
+$white: #fff;
+$dark-gray: darken($white, 50%);
+$body-bg: #f2f4f7;
+$body-color: #4e4e4e;
+$light: lighten($body-bg, 2%);
+$nav-tabs-link-active-bg: $white;
+$link-decoration: underline;
+$card-cap-bg: $light;
+$icon-bar-bg: #22193e;
+$text-muted: #6c757d;
+
+// CSS Variables
+$primary-var: var(--primary-color, $primary);
+$primary-darker-var: var(--primary-darker, $primary-darker);
+$primary-light-var: var(--primary-light, $primary-light);
+$primary-lighter-var: var(--primary-lighter, $primary-lighter);
+
+$primary-gradient: linear-gradient(
+  to right,
+  $primary-darker-var 0%,
+  $primary-light-var 100%
+);
+$primary-gradient-vertical: linear-gradient(
+  to top,
+  $primary-darker-var 0%,
+  $primary-light-var 100%
+);
+$primary-gradient-lighter-vertical: linear-gradient(
+  to top,
+  $primary-var 0%,
+  $primary-light-var
+);
+
+$link-color: $blue;
+$link-hover-color: $primary-darker-var;

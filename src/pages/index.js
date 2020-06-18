@@ -1,45 +1,43 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+import {Container, Row, Col, Button} from 'reactstrap';
+
 import styles from './styles.module.css';
-
-import '../scss/index.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Button from 'react-bootstrap/Button';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: "Easy to Use",
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
-      <>
+      <Fragment>
         Docusaurus was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
-      </>
+      </Fragment>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: "Focus on What Matters",
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
-      <>
+      <Fragment>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
         ahead and move your docs into the <code>docs</code> directory.
-      </>
+      </Fragment>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: "Powered by React",
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
-      <>
+      <Fragment>
         Extend or customize your website layout by reusing React. Docusaurus can
         be extended while reusing the same header and footer.
-      </>
+      </Fragment>
     ),
   },
 ];
@@ -47,7 +45,7 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('col col--4', styles.feature)}>
+    <Col sm={12} md={4} className={classnames(styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -55,7 +53,7 @@ function Feature({imageUrl, title, description}) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
-    </div>
+    </Col>
   );
 }
 
@@ -64,42 +62,55 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Juris. Imagine a better legal system.`}
-      description="Re-imagining the legal system, like programmers.<head />">
+      title={`Imagine a better legal system.`}
+      description="We're building a new legal system and we're thinking like programmers. Help us or get help.<head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
-        <div className="container">
-          <div className="row d-flex">
+        <Container>
+          <Row className="d-flex">
             <div className="col p-2">
-            <h1 className="hero__title">Imagine a better legal system.</h1>
-            <p className="hero__subtitle">Open source. Justice for All.</p>
-              <div className={styles.buttons}>
-                <Link
+            <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png"/>
+              <h1 className="pt-2 pb-2 hero__title">Building a better legal system.</h1>
+              <p className="pt-2 pb-2 hero__subtitle">We believe the only answer to problems in a public system is an open solution. Help us build it.</p>
+                <div className="pt-2">
+                <div className={styles.buttons}>
+                <Button
+                  tag={Link}
                   className={classnames(
-                    'button button--outline button--secondary button--lg',
+                    `mr-2`,
                     styles.getStarted,
                    )}
                   to={useBaseUrl('docs/')}>
                   Get Started
-                </Link>
+                </Button>
+                <Button
+                  tag={Link}
+                  color="primary"
+                  className={classnames(
+                    `ml-2`,
+                    styles.getStarted,
+                   )}
+                  to={useBaseUrl('help/')}>
+                  Get Legal Help
+                </Button>
+                </div>
               </div>
             </div>
             <div className="col p-2">
-              <img className="" src="../../static/img/logo.svg" />
+              <img className="p-2" src="/img/Hero-Image.png" />
             </div>
-          </div>
-          </div>
-        </div>
+          </Row>
+          </Container>
       </header>
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
-            <div className="container">
-              <div className="row">
+            <Container>
+              <Row>
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
-              </div>
-            </div>
+              </Row>
+            </Container>
           </section>
         )}
       </main>
