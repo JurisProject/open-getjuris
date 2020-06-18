@@ -32,13 +32,18 @@
   }
 
   .hero__subtitle{
-    font-weight: 400;
+    font-weight: 200;
+  }
+
+  .hero__title{
+
   }
 
   .hero--dark {
     --ifm-hero-background-color: var(--ifm-color-primary);
     --ifm-hero-text-color: var(--ifm-color-white);
-    color: $white;
+      color: $white;
+      background-color: $blue-gradient-horizontal;
   }
 
   .docusaurus-highlight-code-line {

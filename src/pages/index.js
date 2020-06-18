@@ -67,19 +67,17 @@ function Home() {
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <Container>
           <Row className="d-flex">
-            <div className="col p-2">
-              <img className="p-2 hero--image" src="/img/Hero-Image.png" />
-            </div>
+            
             <div className="col p-2">
             <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png"/>
               <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle">Join our open source project, because public problems require public solutions.</p>
+              <p className="pt-2 pb-2 pl-2 hero__subtitle">Public problems require open solutions.<br></br>Join Juris and help us engineer a better legal system.</p>
                 <div className="pt-2">
                 <div className={styles.buttons}>
                 <Button
                   tag={Link}
                   className={classnames(
-                    `mr-2`,
+                    `mr-2 btn-primary`,
                     styles.getStarted,
                    )}
                   to={useBaseUrl('docs/')}>
@@ -97,6 +95,9 @@ function Home() {
                 </Button>
                 </div>
               </div>
+            </div>
+            <div className="col p-2">
+              <img className="p-5 hero--image" src="/img/Hero-Image.png" />
             </div>
           </Row>
           </Container>
