@@ -69,34 +69,37 @@ function Home() {
           <Row className="d-flex">
             <div className="col p-2">
             <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png"/>
-              <h1 className="pt-2 pb-2 hero__title">Building a better legal system.</h1>
-              <p className="pt-2 pb-2 hero__subtitle">We believe the only answer to problems in a public system is an open solution. Help us build it.</p>
+              <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
+              <p className="pt-2 pb-2 pl-2 hero__subtitle">Public problems require open solutions.<br></br>Join Juris and help us engineer a better legal system.</p>
                 <div className="pt-2">
                 <div className={styles.buttons}>
                 <Button
                   tag={Link}
+                  outline color="light"
+                  size="lg"
                   className={classnames(
                     `mr-2`,
                     styles.getStarted,
                    )}
                   to={useBaseUrl('docs/')}>
-                  Get Started
+                  Join Juris
                 </Button>
                 <Button
                   tag={Link}
-                  color="primary"
+                  outline color="light"
+                  size="lg"
                   className={classnames(
                     `ml-2`,
                     styles.getStarted,
                    )}
                   to={useBaseUrl('help/')}>
-                  Get Legal Help
+                  Find Legal Help
                 </Button>
                 </div>
               </div>
             </div>
             <div className="col p-2">
-              <img className="p-2" src="/img/Hero-Image.png" />
+              <img className="p-5 hero--image" src="/img/Hero-Image.png" />
             </div>
           </Row>
           </Container>

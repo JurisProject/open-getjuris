@@ -27,10 +27,23 @@
 
   }
 
+  .hero--image{
+    max-width: 85%;
+  }
+
+  .hero__subtitle{
+    font-weight: 200;
+  }
+
+  .hero__title{
+
+  }
+
   .hero--dark {
     --ifm-hero-background-color: var(--ifm-color-primary);
     --ifm-hero-text-color: var(--ifm-color-white);
-    color: $white;
+      color: $white;
+      background-image: $primary-gradient;
   }
 
   .docusaurus-highlight-code-line {
