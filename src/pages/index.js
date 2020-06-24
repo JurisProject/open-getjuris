@@ -62,15 +62,15 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Imagine a better legal system.`}
-      description="We're building a new legal system and we're thinking like programmers. Help us or get help.<head />">
+      title={`Juris - Reboot the legal system.`}
+      description="We're a community of Legal Engineers who aim to use open source to make the legal system work for everyone.<head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <Container>
           <Row className="d-flex">
             <div className="col p-2">
             <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png"/>
               <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle">Public problems require open solutions.<br></br>Join Juris and help us engineer a better legal system.</p>
+              <p className="pt-2 pb-2 pl-2 hero__subtitle">Public problems require open solutions.<br></br>Juris is a group open source of Legal Engineers building them.</p>
                 <div className="pt-2">
                 <div className={styles.buttons}>
                 <Button
@@ -105,6 +105,16 @@ function Home() {
           </Container>
       </header>
       <main>
+      <section>
+          <Container>
+            <Row>
+              <div className="d-flex col p-2 justify-content-center">
+                <h1 className="p-5">Manifesto</h1>
+                <p className="p-2">Juris is an i</p>
+              </div>
+            </Row>
+          </Container>
+      </section>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <Container>
