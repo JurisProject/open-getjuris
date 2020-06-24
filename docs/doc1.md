@@ -10,4 +10,4 @@ The United States judicial system is a branch of government. It is a public syst
 
 As a community, our core values are inclusion, education, and creation. This means all are welcome to contribute, we will help your become a better legal engineer, and we will all do it by actually building things to make a better legal system. The time for talking has passed.
 
-All code contributed to public [https://github.com/jurisproject/]ret(https://github.com/jurisproject/) Juris will remain open source and free to use in perpetuity. By committing code you agree to these terms.
+All code and content contributed to the [Juris Project Public Code Repository](https://github.com/jurisproject/) will remain open source and free to use in perpetuity. By committing code or content to this repository, you agree to these terms.
