@@ -110,7 +110,7 @@ function Home() {
             <Row>
               <Col className="p-5 text-center">
                 <h1>Manifesto</h1>
-                <p className="p-5">Juris is a a project assembled around the belief that public problems require open solutions. We are a community of legal engineers, who straddle the line between law and code. We believe that the only way to solve problems the scale of "Access to Justice" and "Legal System Reform" is through open source methodology. The price of access to the legal system, and rights under government, should be as close to free as possible.</p>
+                <p className="p-5">Juris is a a project assembled around the belief that public problems require open solutions. We are a community of legal engineers, building software to make the legal system open, accessible, and fair. We believe that the only way to solve problems the scale of "Access to Justice" and "Legal System Reform" is through open source methodology. The price of access to the legal system, and rights under government, should be as close to free as possible.</p>
               </Col>
             </Row>
           </Container>
