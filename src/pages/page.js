@@ -15,7 +15,7 @@ function Page() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Imagine a better legal system.`}
+      title={`Juris - Reboot The Legal System.`}
       description="We're building a new legal system and we're thinking like programmers. Help us or get help.<head />">
       <PageHeader>
         <h2>Page Title</h2>
