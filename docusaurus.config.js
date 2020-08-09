@@ -16,16 +16,25 @@ module.exports = {
         src: 'img/Juris-Logo-Badge.png',
       },
       links: [
+        {to: 'docs',activeBasePath: 'docs/', label: 'Handbook', position: 'right'},
         {
-          to: 'docs',activeBasePath: 'docs/', label: 'Docs', position: 'right',
+          href: 'https://builder.getjuris.com',
+          label: 'Builder',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'right'},
-        {to: 'team', label: 'Team', position: 'right'},
-        {to: 'build', label: 'Builder', position: 'right'},
-        {to: 'help', label: 'Get Legal Help', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/jurislibrary',
+          label: 'Templates',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/jurisproject',
+          label: 'Code',
+          position: 'right',
+        },
+        {
+          href: 'https://getjuris.com',
+          label: 'Getjuris.com',
           position: 'right',
         },
       ],
@@ -34,14 +43,18 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Handbook',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Manifesto',
+              to: 'docs/manifesto',
             },
             {
-              label: 'Second Doc',
+              label: 'Mission',
+              to: 'docs/doc2/',
+            },
+            {
+              label: 'How to Join',
               to: 'docs/doc2/',
             },
           ],

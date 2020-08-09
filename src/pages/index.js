@@ -11,32 +11,56 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: "Easy to Use",
+    title: "Open Standard",
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <Fragment>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Juris is building an open document standard and template library. All of our code is free to use. Our goal is maximum interoperability with all existing systems.
       </Fragment>
     ),
   },
   {
-    title: "Focus on What Matters",
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <Fragment>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </Fragment>
-    ),
-  },
-  {
-    title: "Powered by React",
+    title: "No Code",
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <Fragment>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Juris builder lets you create interviews and documents through an easy visual interface. Builder is also open source and free.
+      </Fragment>
+    ),
+  },
+  {
+    title: "Complete",
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <Fragment>
+        Our document standard includes everything needed to create and embed complex user interviews and resulting documents.
+      </Fragment>
+    ),
+  },
+  {
+    title: "Simple and Human",
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <Fragment>
+        The code generated and used by our system is simple and human reabable even in pure code form.
+      </Fragment>
+    ),
+  },
+  {
+    title: "Community Owned",
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <Fragment>
+        Juris is an open community project maintained by a decentralized public benefit cooperative. Learn more about JurisDAO by joining our Discord.
+      </Fragment>
+    ),
+  },
+  {
+    title: "Client Side/Serverless",
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <Fragment>
+        Juris logic and document generation runs entirely client side, and can be hosted literally anywhere. We like Github 😁
       </Fragment>
     ),
   },
@@ -70,7 +94,7 @@ function Home() {
             <Col xs="6" className="p-2">
               <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png" />
               <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle">Public problems require open solutions.<br></br>Juris is a group open source of Legal Engineers building them.</p>
+              <p className="pt-2 pb-2 pl-2 hero__subtitle">Juris is an open document standard, a template library, and the Legal Engineers using it to build the future.</p>
               <div className="pt-2">
                 <div className={styles.buttons}>
                   <Button
@@ -82,7 +106,7 @@ function Home() {
                       styles.getStarted,
                     )}
                     to={useBaseUrl('docs/')}>
-                    Join Juris
+                    Get Started
                 </Button>
                   <Button
                     tag={Link}
@@ -93,7 +117,7 @@ function Home() {
                       styles.getStarted,
                     )}
                     to={useBaseUrl('help/')}>
-                    Find Legal Help
+                    Get Legal Help
                 </Button>
                 </div>
               </div>
@@ -108,11 +132,14 @@ function Home() {
         <section>
           <Container>
             <Row>
-              <Col className="p-5 text-center">
-                <h1>Manifesto</h1>
-                <p className="p-5">Juris is a a project assembled around the belief that public problems require open solutions. We are a community of legal engineers, building software to make the legal system open, accessible, and fair. We believe that the only way to solve problems the scale of "Access to Justice" and "Legal System Reform" is through open source methodology. The price of access to the legal system, and rights under government, should be as close to free as possible.</p>
+              <Col className="pt-5 pb-5">
+                <h1>What is Juris?</h1>
+                <p>Juris is a decentralized public benefit cooperative. We are focused on using open source software to fix the legal system.</p> 
+                <p>We maintain the Juris codebase, and run <a href="https://getjuris.com">Getjuris.com</a>, where we use Juris to build legal self help apps.</p>
+                <p>Currently we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start be visiting our <a href=".//docs">handbook.</a></p>
               </Col>
             </Row>
+            <h1>Features:</h1>
           </Container>
         </section>
         {features && features.length > 0 && (
@@ -126,6 +153,7 @@ function Home() {
             </Container>
           </section>
         )}
+
       </main>
     </Layout>
   );
