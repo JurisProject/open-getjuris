@@ -12,7 +12,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: "Open Standard",
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_open_source_1qxw.svg',
     description: (
       <Fragment>
         Juris is building an open document standard and template library. All of our code is free to use. Our goal is maximum interoperability with all existing systems.
@@ -21,7 +21,7 @@ const features = [
   },
   {
     title: "No Code",
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_ideas_flow_cy7b.svg',
     description: (
       <Fragment>
         Juris builder lets you create interviews and documents through an easy visual interface. Builder is also open source and free.
@@ -29,8 +29,8 @@ const features = [
     ),
   },
   {
-    title: "Complete",
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: "Full Stack",
+    imageUrl: 'img/undraw_functions_egi3.svg',
     description: (
       <Fragment>
         Our document standard includes everything needed to create and embed complex user interviews and resulting documents.
@@ -39,7 +39,7 @@ const features = [
   },
   {
     title: "Simple and Human",
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'static/img/undraw_researching_22gp.svg',
     description: (
       <Fragment>
         The code generated and used by our system is simple and human reabable even in pure code form.
@@ -48,7 +48,7 @@ const features = [
   },
   {
     title: "Community Owned",
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_community_8nwl.svg',
     description: (
       <Fragment>
         Juris is an open community project maintained by a decentralized public benefit cooperative. Learn more about JurisDAO by joining our Discord.
@@ -134,9 +134,9 @@ function Home() {
             <Row>
               <Col className="pt-5 pb-5">
                 <h1>What is Juris?</h1>
-                <p>Juris is a decentralized public benefit cooperative. We are focused on using open source software to fix the legal system.</p> 
+                <p>Juris is a decentralized public benefit corporation. (We are transitioning to a cooperative ownership model. More on that soon!) We are focused on using open source software to fix the legal system.</p> 
                 <p>We maintain the Juris codebase, and run <a href="https://getjuris.com">Getjuris.com</a>, where we use Juris to build legal self help apps.</p>
-                <p>Currently we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start be visiting our <a href=".//docs">handbook.</a></p>
+                <p>Currently, we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start be visiting our <a href=".//docs">handbook.</a></p>
               </Col>
             </Row>
             <h1>Features:</h1>
@@ -145,7 +145,7 @@ function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <Container>
-              <Row>
+              <Row className="pb-5">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
