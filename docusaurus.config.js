@@ -64,7 +64,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: '#',
+              href: 'https://discord.gg/ecXCaWC',
             },
             {
               label: 'Twitter',
@@ -77,7 +77,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              href: 'https://getjuris.com/publications',
             },
             {
               label: 'GitHub',
