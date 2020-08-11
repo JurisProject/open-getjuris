@@ -86,7 +86,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Juris - Reboot the legal system.`}
+      title={`Juris: Reboot the legal system.`}
       description="We're a community of Legal Engineers who aim to use open source to make the legal system work for everyone.<head />">
       <header className={classnames('hero hero--primary hero--dark', styles.heroBanner)}>
         <Container>
@@ -153,6 +153,25 @@ function Home() {
             </Container>
           </section>
         )}
+        <section>
+            <h3 className="text-center pb-5">Powered By</h3>
+            <Container>
+                <Row>
+                    <Col className="text-center">
+                        <ReactLogo className="tech-logo" />
+                        <p>Easily incorporate Juris Interviews into any ReactJS website.</p>
+                    </Col>
+                    <Col className="text-center">
+                        <SurveyJSLogo className="tech-logo" />
+                        <p>Build your interviews with the most robust form building platform.</p>
+                    </Col>
+                    <Col className="text-center">
+                        <MarkdownLogo className="tech-logo ml-auto mr-auto" />
+                        <p>Build complex documents in Markdown for easy versioning and rendering.</p>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
 
       </main>
     </Layout>
