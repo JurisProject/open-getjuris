@@ -39,7 +39,7 @@ const features = [
   },
   {
     title: "Simple and Human",
-    imageUrl: 'static/img/undraw_researching.svg',
+    imageUrl: 'static/img/undraw_relaxing_at_home_9tyc.svg',
     description: (
       <Fragment>
         The code generated and used by our system is simple and human reabable even in pure code form.
