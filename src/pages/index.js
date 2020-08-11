@@ -5,6 +5,10 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+import MarkdownLogo from '../components/MarkdownLogo';
+import SurveyJSLogo from '../components/SurveyJSLogo';
+import ReactLogo from '../components/ReactLogo';
+
 import { Container, Row, Col, Button } from 'reactstrap';
 
 import styles from './styles.module.css';
@@ -152,6 +156,24 @@ function Home() {
               </Row>
             </Container>
           </section>
+          <section>
+            <Container>
+                <Row>
+                    <Col className="text-center">
+                        <ReactLogo className="tech-logo" />
+                        <p>Easily incorporate Juris Interviews into any ReactJS website.</p>
+                    </Col>
+                    <Col className="text-center">
+                        <SurveyJSLogo className="tech-logo" />
+                        <p>Build your interviews with the most robust form building platform.</p>
+                    </Col>
+                    <Col className="text-center">
+                        <MarkdownLogo className="tech-logo ml-auto mr-auto" />
+                        <p>Build complex documents in Markdown for easy versioning and rendering.</p>
+                    </Col>
+                </Row>
+            </Container>
+            </section>
         )}
 
       </main>
