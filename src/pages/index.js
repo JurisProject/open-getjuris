@@ -136,7 +136,7 @@ function Home() {
                 <h1>What is Juris?</h1>
                 <p>Juris is a decentralized public benefit corporation. (We are transitioning to a cooperative ownership model. More on that soon!) We are focused on using open source software to fix the legal system.</p> 
                 <p>We maintain the open source Juris document assembly toolkit, the open template library, and run <a href="https://getjuris.com">Getjuris.com</a>, where we use Juris to build legal self help apps.</p>
-                <p>Currently, we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start be visiting our <a href=".//docs">handbook.</a></p>
+                <p>Currently, we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start by visiting our <a href=".//docs">handbook.</a></p>
               </Col>
             </Row>
             <h1>Features:</h1>
