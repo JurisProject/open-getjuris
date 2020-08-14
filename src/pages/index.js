@@ -15,7 +15,7 @@ const features = [
     imageUrl: 'img/undraw_open_source_1qxw.svg',
     description: (
       <Fragment>
-        Juris is building an open document standard and template library. All of our code is free to use. Our goal is maximum interoperability with all existing systems.
+        Juris is building an open document assembly toolkit and template library. All of our code is free to use. Our goal is maximum interoperability with all existing systems.
       </Fragment>
     ),
   },
@@ -94,7 +94,7 @@ function Home() {
             <Col xs="6" className="p-2">
               <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png" />
               <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle">Juris is an open document standard and a template library. Maintained by the Legal Engineers using it to build the future.</p>
+              <p className="pt-2 pb-2 pl-2 hero__subtitle"> Juris Legal Engineers are using open source software to fix the legal system.</p>
               <div className="pt-2">
                 <div className={styles.buttons}>
                   <Button
@@ -135,7 +135,7 @@ function Home() {
               <Col className="pt-5 pb-5">
                 <h1>What is Juris?</h1>
                 <p>Juris is a decentralized public benefit corporation. (We are transitioning to a cooperative ownership model. More on that soon!) We are focused on using open source software to fix the legal system.</p> 
-                <p>We maintain the Juris codebase, and run <a href="https://getjuris.com">Getjuris.com</a>, where we use Juris to build legal self help apps.</p>
+                <p>We maintain the open source Juris document assembly toolkit, the open template library, and run <a href="https://getjuris.com">Getjuris.com</a>, where we use Juris to build legal self help apps.</p>
                 <p>Currently, we are building an open standard for gathering user input via conversational interview flows, and generating documents from that input. If you would like to contribute start be visiting our <a href=".//docs">handbook.</a></p>
               </Col>
             </Row>
