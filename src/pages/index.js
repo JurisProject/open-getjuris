@@ -51,7 +51,7 @@ const features = [
     imageUrl: 'img/undraw_community_8nwl.svg',
     description: (
       <Fragment>
-        Juris is an open community project maintained by a decentralized public benefit cooperative. Learn more about JurisDAO by joining our Discord.
+        Juris is an open community project maintained by a decentralized public benefit cooperative. Learn more about JurisDAO by joining our <a href="https://discord.gg/syUtJd7">Discord</a>
       </Fragment>
     ),
   },
