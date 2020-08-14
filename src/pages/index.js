@@ -94,7 +94,7 @@ function Home() {
             <Col xs="6" className="p-2">
               <img className="pb-2 pt-3" src="img/Juris-Word-Logo-White.png" />
               <h1 className="pt-2 pb-2 pl-2 hero__title">Time to reboot the legal system.</h1>
-              <p className="pt-2 pb-2 pl-2 hero__subtitle"> Juris is building open source document tools and open documents templates.<br></br> All free to use.</p>
+              <p className="pt-2 pb-2 pl-2 hero__subtitle"> Juris is building open source document tools and open document templates.<br></br> All free to use.</p>
               <div className="pt-2">
                 <div className={styles.buttons}>
                   <Button
