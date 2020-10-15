@@ -80,7 +80,6 @@ module.exports = {
               label: 'Join',
               href: 'https://discord.gg/qbUhmH4',
             },
-            {
               label: 'Support',
               href: 'https://discord.gg/KmFNEmp',
             },
@@ -96,6 +95,14 @@ module.exports = {
             {
               label: 'GitHub',
               href: 'https://github.com/lexDAO',
+            },
+            {
+              label: 'Blog',
+              href: 'https://lexdao.substack.com',
+            },
+            {
+              label: 'Newsletter',
+              href: 'https://lexdao.substack.com',
             },
           ],
         },
