@@ -15,7 +15,7 @@ module.exports = {
       //   alt: 'lexDAO-Logo',
       //   src: 'img/lexDAO-Substack-Header.png',
       // },
-      links: [ 
+      links: [
         {
           href: 'DAOLINK',
           label: 'DAO',
@@ -80,6 +80,7 @@ module.exports = {
               label: 'Join',
               href: 'https://discord.gg/qbUhmH4',
             },
+            {
               label: 'Support',
               href: 'https://discord.gg/KmFNEmp',
             },

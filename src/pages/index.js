@@ -107,7 +107,7 @@ function Home() {
                       styles.getStarted,
                     )}
                     to={useBaseUrl('docs/')}>
-                    Get Started
+                    View Handbook
                 </Button>
                   <Button
                     tag={Link}
@@ -117,8 +117,8 @@ function Home() {
                       `ml-2`,
                       styles.getStarted,
                     )}
-                    to={useBaseUrl('https://discord.gg/qbUhmH4')}>
-                    Join
+                    to="#join-lexdao">
+                    Join LexDAO
                 </Button>
                 </div>
               </div>
@@ -145,7 +145,7 @@ function Home() {
             </Row>
             <Row>
               <Col className="pt-5 pb-5">
-                <h1>Join LexDAO</h1>
+                <h1 id="join-lexdao">Join LexDAO</h1>
                 <h4 style={{fontWeight: `400`}}>Want to join LexDAO? The best way is just to show up. Drop into the Discord, attend the weekly community calls, maybe throw down some code during the hacking sessions. If it's clear that you're contributing value, a LexDAO member might nominate you to join the DAO. If you're so fired up you can't wait, you can fill out the form launched by the button below to kick start a nomination by giving us your contact info.</h4><br/><Button tag={Link}
                     outline color="dark"
                     size="lg"
@@ -156,7 +156,7 @@ function Home() {
               </Col>
             </Row>
             <h1>Features:</h1>
-          
+
         {features && features.length > 0 && (
           <section className={styles.features}>
             <Container>
