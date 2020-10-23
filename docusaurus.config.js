@@ -1,40 +1,50 @@
 const path = require("path");
 
 module.exports = {
-  title: 'Juris',
-  tagline: 'Justice. For All.',
-  url: 'https://nifty-heisenberg-a6b091.netlify.app',
+  title: 'lexDAO',
+  tagline: 'Community of Legal Engineers',
+  url: 'https://focused-murdock-699fb2.netlify.app/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Juris, PBC', // Usually your GitHub org/user name.
-  projectName: 'Juris', // Usually your repo name.
+  favicon: 'img/lexDAO-Logo-White.png',
+  organizationName: 'lexDAO', // Usually your GitHub org/user name.
+  projectName: 'lexDAO', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Juris",
-      logo: {
-        alt: 'Juris Logo',
-        src: 'img/Juris-Logo-Badge.png',
-      },
+      title: "",
+      // logo: {
+      //   alt: 'lexDAO-Logo',
+      //   src: 'img/lexDAO-Substack-Header.png',
+      // },
       links: [
+        {
+          href: 'DAOLINK',
+          label: 'DAO',
+          position: 'right',
+        },
         {to: 'docs',activeBasePath: 'docs/', label: 'Handbook', position: 'right'},
         {
-          href: 'https://builder.getjuris.com',
-          label: 'Builder',
+          href: 'https://snapshot.page/#/lexdao',
+          label: 'Snapshot',
           position: 'right',
         },
         {
-          href: 'https://github.com/jurislibrary',
-          label: 'Templates',
+          href: 'https://discord.gg/qbUhmH4', // need link in handbook
+          label: 'Join',
           position: 'right',
         },
         {
-          href: 'https://github.com/jurisproject',
-          label: 'Code',
+          href: 'https://discord.gg/qbUhmH4',
+          label: 'Community',
           position: 'right',
         },
         {
-          href: 'https://getjuris.com',
-          label: 'Getjuris.com',
+          href: 'https://discord.gg/KmFNEmp',
+          label: 'Support',
+          position: 'right',
+        },
+        {
+          href: 'https://dapps.lexdao.org',
+          label: 'dApps',
           position: 'right',
         },
       ],
@@ -43,50 +53,62 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Handbook',
+          title: '',
           items: [
             {
-              label: 'Manifesto',
+              label: 'DAO',
               to: 'docs/manifesto',
             },
             {
-              label: 'Mission',
+              label: 'Handbook',
               to: 'docs/doc2/',
             },
             {
-              label: 'How to Join',
-              to: 'docs/doc2/',
+              label: 'Snapshot',
+              to: 'https://snapshot.page/#/lexdao',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/ecXCaWC',
+              label: 'Community',
+              href: 'https://discord.gg/qbUhmH4',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/getjuris',
+              label: 'Join',
+              href: 'https://discord.gg/qbUhmH4',
+            },
+            {
+              label: 'Support',
+              href: 'https://discord.gg/KmFNEmp',
             },
           ],
         },
         {
-          title: 'More',
+          title: '',
           items: [
             {
-              label: 'Blog',
-              href: 'https://getjuris.com/publications',
+              label: 'Dapps',
+              href: 'https://dapps.lexdao.org',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/jurisproject',
+              href: 'https://github.com/lexDAO',
+            },
+            {
+              label: 'Blog',
+              href: 'https://lexdao.substack.com',
+            },
+            {
+              label: 'Newsletter',
+              href: 'https://lexdao.substack.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Juris, PBC. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} lexDAO.`,
     },
   },
   presets: [
